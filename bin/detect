@@ -4,7 +4,7 @@ BUILD_DIR=$1
 
 if [[ -f $BUILD_DIR/bin/build ]]
 then
-    echo "custom-buildpack"
+    echo "my-data-chameleon-heroku-buildpack"
     exit 0
 else
     exit 1
